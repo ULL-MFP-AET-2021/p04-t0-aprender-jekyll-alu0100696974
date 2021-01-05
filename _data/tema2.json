@@ -1,0 +1,11 @@
+{
+    "titulo": "Factores que intervienen en la Tecnología  ",
+    "contenido1": "En la tecnología influyen muchos factores, entre los que se pueden destacar:",
+    "apartados": [ 
+        { "dato": "Los materiales", "contenido": "características como la resistencia, el peso, la facilidad de obtención, son claves en su utilización en unos u otros objetos." },
+        { "dato": "Los conocimientos científicos", "contenido": "para poder desarrollar el teléfono móvil, antes fue necesario comprender la ondas." },
+        { "dato": "Las técnicas de fabricación", "contenido": "para construir una pieza u objeto, es necesario dominar la soldadura, la estampación, la embutición, el corte, etc." },
+        { "dato": "Los factores económicos", "contenido": "para que un producto vea la luz, antes se ha realizado un minucioso estudio sobre costes de fabricación y la posible demanda que va a tener en el mercado. Se tiene en cuenta el concepto de rentabilidad." },
+        { "dato": "La informática", "contenido": "está presente en el diseño, en el control de fabricación, control de calidad, administración de la empresa, etc." }
+    ]
+}

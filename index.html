@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+</div>
+{% for tema in site.temas %}
+  {%- if tema.visible %}
+    <h2><a href="{{ tema.url }}">Repl.it: {{ tema.name }}</h2></a>
+    <h2><a href="{{ site.baseurl }}/{{ tema.url }}">GitHub: {{ tema.name }}</h2></a>
+  {%- endif %}
+{% endfor %}
+
+{% for tarea in site.tareas %}
+  {%- if tarea.visible %}
+    <h2><a href="{{ tarea.url }}">Repl.it: {{ tarea.name }}</h2></a>
+    <h2><a href="{{ site.baseurl }}/{{ tarea.url }}">GitHub: {{ tarea.name }}</h2></a>
+  {%- endif %}
+{% endfor %}
+</div>

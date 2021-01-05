@@ -1,0 +1,18 @@
+---
+  layout: default
+  name: Tema 2
+  visible: true
+  date: 2020-11-15
+  my_order: 2
+---
+##{{site.data.tema2.titulo}}     
+
+{{site.data.tema2.contenido1}}
+
+<ul>
+{% for apartado in site.data.tema2.apartados%}
+  <li>
+    {{ apartado.dato }}: {{ apartado.contenido }}
+  </li>
+{% endfor %}
+</ul>
