@@ -95,3 +95,4 @@ collections:
   temas:
     sort_by: my_order
     output: true
+theme: jekyll-theme-cayman
